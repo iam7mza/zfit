@@ -33,7 +33,7 @@ an *observable space*. This can be created using the :py:class:`~zfit.Space` cla
 
 .. jupyter-execute::
 
-    obs = zfit.Space('x', -10, 10)
+    obs = zfit.Space('x', (-10, 10))
 
 The best interpretation of the observable at this stage is that it defines the name and range of the observable axis.
 
